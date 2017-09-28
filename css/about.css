@@ -1,0 +1,23 @@
+#navigation{
+  float: right;
+  font-size: 15px;
+}
+#Contact_me{
+  width: 100%;
+  position:fixed;
+  bottom:0px;
+  text-align: center;
+}
+#Description{
+  width:200px;
+  height:150px;
+}
+#picture{
+  border-radius: 12%;
+}
+body{
+  font-family: 'Caveat Brush', cursive;
+}
+#Description{
+  float: right;
+}
