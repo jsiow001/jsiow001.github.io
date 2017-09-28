@@ -1,23 +1,28 @@
-#navigation{
-  float: right;
-  font-size: 15px;
-}
-#Contact_me{
-  width: 100%;
-  position:fixed;
-  bottom:0px;
-  text-align: center;
-}
-#Description{
-  width:200px;
-  height:150px;
-}
-#picture{
-  border-radius: 12%;
-}
 body{
   font-family: 'Caveat Brush', cursive;
 }
-#Description{
-  float: right;
+#navigation{
+  text-align:right;
+  font-size: 15px;
+  width:100%;
+}
+#Contact_me{
+  width: 100%;
+  position:relative;
+  bottom:0px;
+  text-align: center;
+}
+#picture{
+  border-radius: 50%;
+  display: block;
+  left: 500px;
+}
+.Rectangle_box{
+    height: 300px;
+    width: auto;
+    position: relative;
+    text-align: center;
+}
+#bold_span{
+
 }

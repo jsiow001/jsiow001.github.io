@@ -1,0 +1,18 @@
+body{
+  font-family: 'Caveat Brush', cursive;
+}
+#navigation{
+  text-align:right;
+  font-size: 15px;
+  width:100%;
+  display: block;
+}
+#project_navigation_buttons li{
+   background-color: red;
+   text-decoration: none;
+   color: #000000;
+   display: block;
+   float: left;
+   list-style: none;
+   margin-right: 50px;
+}
