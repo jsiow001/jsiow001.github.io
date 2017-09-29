@@ -17,9 +17,9 @@ body{
    margin-right: 50px;
 }
 .project_descriptions{
-  height: 150px;
+  height: 350px;
   width: 100%
 }
 .Project_content{
-  line-height: 0.5;
+  text-align: center;
 }

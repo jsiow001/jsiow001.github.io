@@ -5,24 +5,32 @@ body{
   text-align:right;
   font-size: 15px;
   width:100%;
+  font-family: 'Caveat Brush', cursive;
 }
 #Contact_me{
   width: 100%;
   position:relative;
   bottom:0px;
   text-align: center;
+  font-family: 'Caveat Brush', cursive;
 }
 #picture{
-  border-radius: 50%;
   display: block;
   left: 500px;
+  font-family: 'Caveat Brush', cursive;
 }
 .Rectangle_box{
-    height: 300px;
+    height: 350px;
     width: auto;
     position: relative;
     text-align: center;
+    font-family: 'Caveat Brush', cursive;
 }
-#bold_span{
-
+#profile-picture{
+  background-image:url('../img/header.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  font-family: 'Caveat Brush', cursive;
 }
