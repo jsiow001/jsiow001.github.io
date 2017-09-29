@@ -16,3 +16,10 @@ body{
    list-style: none;
    margin-right: 50px;
 }
+.project_descriptions{
+  height: 150px;
+  width: 100%
+}
+.Project_content{
+  line-height: 0.5;
+}
