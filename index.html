@@ -1,34 +1,113 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
-  <title>Landing page</title>
-  <link rel="stylesheet" href="css/landingpage.css">
-  <link href="https://fonts.googleapis.com/css?family=Caveat+Brush" rel="stylesheet">
+  <title>Jiunn Siow</title>
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
 </head>
 <body>
-
-  <div id="navigation">
-    <a href="">Home</a>
-    <span>/</span>
-    <a href="about.html">About</a>
-    <span>/</span>
-    <a href="projects.html">Project</a>
-    <span>/</span>
-    <a href="/downloads/Jiunn_Siow_Resume.pdf" download>Resume</a>
+  <script src="js/scripts.js"></script>
+  <div id = "title-header">
+    <img id="header-image" src="img/header.jpg"></img>
+  </div>
+  <div id = "ABOUT">
+    <p><b>ABOUT ME</b></p>
+    <img id="potrait_photo" src="img/me.png"></img>
+    <p>Hi, I'm an Electrical Engineer Studying at
+        the University of California Riverside.I focus heavily
+        into areas of Robotics, Computer Architecture, Embedded Systems,
+        and the Internet of things.In addition, I love doing hackathons and making
+         projects in those Areas.
+    </p>
+    <a href="/downloads/Resume.pdf" download>Resume download link</a>
   </div>
 
-<div class="container">
-  <div id="name_presentation">
-  <p id ="name">Hi Im Jiunn<p>
-  <p id="description">Dedicated Engineer and Hacker</p>
-</div>
-  <div id ="learn_more">
-    <button id = "learn_more_button">Learn More</button>
+  <div id ="EXPERIENCE">
+
+    <p><b>EXPERIENCE</b></p>
+    <p><b>SOCAL LAB(Current)</b></p>
+    <p>I am currently working in a Computer Architecture lab under Professor
+      Wong. In this lab, I am working on a custom cooling system for a Nvidia GPU
+    using both software and hardware related. I will be using the CUDA to program
+    loads onto the GPU. In addition we will use a FLIR camera/ to analyze
+    the temperature when the GPU is under load and then use our cooling system
+    to cool down the GPU. </p>
+    <a href="/img/research_image.PNG" download>
+                  <img id = "lab_doc"src="img/research_image.PNG"></img>
+                </a>
+
+    <img id = "lab_image" src="img/lab.png"></img>
+
+    <p><b>General Atomics Aeronautical</b></p>
+    <p>During the summer of 2017, I had to chance to intern at General Atomics Aeronautical.
+      While at General Atomics, I worked on two different projects.The first project
+      involved creating testing code for a advanced flight computer. The other project I've worked
+      on creating code for a CAN protocol for one of GA's newer projects.
+    </p>
+    <img id = "GA_logo" src="img/GA_logo.jpg"></img>
+
   </div>
-</div>
+
+  <div id = "PROJECTS">
+    <ul>
+      <p><b>PROJECTS</b></p>
+      <ul>
+        <li>IoT space station
+          <img id = "WIP" src="img/wip.png"></img>
+        </li>
+
+        <li>Robot Arm
+          <img id="Robot_arm_image" src="img/robotic_arm.png"></img>
+        </li>
+
+        <li id = "Smart Mirror">Smart Mirror
+          <img id ="sb_hacks_image" src ="img/sb_hacks.jpg">
+        </img>
+        </li>
+
+        <li id = "Green_House">IOT Green House
+          <img id ="green_house_image" src="img/greenhouse.jpg">
+        </img>
+        </li>
+
+        <li>First Person View BattleBots
+          <img id ="FPV_BB_image" src="img/FPV_BB.jpg">
+        </img>
+        </li>
+
+        <li>LED Cube
+          <img id ="LED_CUBE_image" src="img/led_cube.jpg">
+        </img>
+        </li>
+
+        <li>LED matrix
+          <img id ="LED_MATRIX_image" src="img/led_matrix.jpg">
+        </img>
+        </li>
+
+      </ul>
+  </div>
+
+  <div id ="AWARDS">
+    <p><b>Awards</b></p>
+    <ul>
+      <li>LA Hacks · Top 20	</li>
+      <li>SB Hacks III · 4th place</li>
+      <li>Hack @ UCI 2017 · Best Internet of Things Award </li>
+      <li> Citrus Hack 2016  · 2nd Place and Equipo Vision most Innovative Award</li>
+      <li>SB Hacks II · IBM Watson Internet of Things Award</li>
+      <li>Beach Hacks 2016 · 1st place</li>
+    </ul>
+  </div>
+
+  <div id = "CONTACT_ME">
+    <p><b>CONTACT ME</b></p>
+    <ul>
+      <li><a href="">Email:  </a></li>
+      <li><a href="https://www.linkedin.com/in/jiunn-siow-650380110/"> linkedin </a></li>
+      <li><a href="https://github.com/jsiow001"> Github  </a></li>
+    </ul>
+  </div>
 
 </body>
 </html>
