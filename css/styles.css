@@ -1,1 +1,29 @@
+#title-header{
 
+}
+#header-image{
+  width:100%;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  height: 200px;
+}
+#about{
+  height: 400px;
+  width: 100%
+}
+.work_images{
+  width:350px;
+  height:100px;
+}
+#lab_doc{
+  width: 150px;
+  height: 150px;
+}
+#carouselExampleControls{
+  width: 400px;
+  height: 400px;
+}
+li{
+  list-style-type: none
+}
