@@ -25,3 +25,14 @@
 li{
   list-style-type: none
 }
+#contacts li{
+  display: inline;
+}
+.space-boxes{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.word_boxes{
+  height: 100px;
+  width:760px;
+}
