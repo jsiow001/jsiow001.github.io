@@ -36,3 +36,41 @@ li{
   height: 100px;
   width:760px;
 }
+#title-header{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.Name{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  font-size: 80px;
+}
+.header{
+  font-size: 37.5px;
+}
+.sub_header{
+  font-size: 25px;
+}
+#potrait_photo{
+  margin-bottom: 10px;
+}
+#resume_text{
+  color:black;
+}
+.icon{
+  font-size: 30px;
+  color: black;
+}
+#icons{
+  position: absolute;
+  margin: auto;
+  right: 0;
+  left: 0;
+}
+#ALIGN_AWARDS{
+  width: 50%;
+  margin: 0 auto;
+}
